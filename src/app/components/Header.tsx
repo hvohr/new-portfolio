@@ -14,8 +14,7 @@ const Header = () => {
         <Link href="/">
         <div className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-transform hover:scale-110 mx-1 font-extrabold text-2xl relative inline-block stroke-current">
             Home
-            <svg className="text-black absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none">
+            <svg className={`${pathname === '/' ? 'text-white' : 'text-black'} absolute -bottom-0.5 w-full max-h-1.5`} viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
               <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
             </svg>
           </div>
@@ -24,8 +23,7 @@ const Header = () => {
       <Link href="/about">
         <div className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-transform hover:scale-110 mx-1 font-extrabold text-2xl relative inline-block stroke-current">
           About
-          <svg className="text-black absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none">
+          <svg className={`${pathname === '/about' ? 'text-white' : 'text-black'} absolute -bottom-0.5 w-full max-h-1.5`} viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
             <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
           </svg>
         </div>
@@ -33,8 +31,7 @@ const Header = () => {
       <Link href="/projects">
         <div className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-transform hover:scale-110 mx-1 font-extrabold text-2xl relative inline-block stroke-current">
           Projects
-          <svg className="text-black absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none">
+          <svg className={`${pathname === '/projects' ? 'text-white' : 'text-black'} absolute -bottom-0.5 w-full max-h-1.5`} viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
             <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
           </svg>
         </div>
@@ -42,8 +39,7 @@ const Header = () => {
       <Link href="/contact">
         <div className="drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] transition-transform hover:scale-110 mx-1 font-extrabold text-2xl relative inline-block stroke-current">
           Contact
-          <svg className="text-black absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none">
+          <svg className={`${pathname === '/contact' ? 'text-white' : 'text-black'} absolute -bottom-0.5 w-full max-h-1.5`} viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
             <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
           </svg>
         </div>
