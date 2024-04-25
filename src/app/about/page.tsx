@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 const About = () => {
   return (
-    <main className="bg-cover bg-no-repeat bg-center bg-[url('/9.jpeg')] font-wilden flex min-h-screen flex-col justify-between items-center p-10 pt-5 gap-3">
+    <main className="bg-cover bg-no-repeat bg-center bg-[url('/9.jpeg')] font-wilden flex min-h-screen flex-col justify-between items-center md:p-10 p-3 pt-5 gap-3">
       <Header />
       <section className="md:mb-20 mt-5 md:mt-0 flex flex-col md:flex-row w-full justify-between items-center h-full gap-5">
       <div className="shadow-lg shadow-gray-400 p-4 rounded-xl flex flex-col justify-center md:w-[48%] w-full items-center" style={{ backgroundColor: 'rgba(255, 255, 255, 0.7)' }}>

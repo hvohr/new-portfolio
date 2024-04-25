@@ -7,7 +7,7 @@ import Header from "./components/Header"
 export default function Home() {
 
   return (
-    <main className="bg-cover bg-no-repeat bg-center bg-[url('/12.jpeg')] font-wilden flex min-h-screen flex-col justify-between items-center p-10 pt-5">
+    <main className="bg-cover bg-no-repeat bg-center bg-[url('/12.jpeg')] font-wilden flex min-h-screen flex-col justify-between items-center md:p-10 p-3 pt-5">
       <Header/>
       <div className="flex flex-col items-center mt-12 gap-4 flex-grow">
         <h1 className="text-center text-8xl md:text-9xl">Hollis Vohr</h1>
